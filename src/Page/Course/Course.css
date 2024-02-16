@@ -1,0 +1,143 @@
+.course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.courseadd {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80vw;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 30px;
+
+}
+
+.courseadd h2 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.courseadd form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    padding: 1rem 0;
+}
+
+.courseadd form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseadd form div input {
+    height: 30px;
+    width: 20vw;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.courseadd form div textarea {
+    height: 50px;
+    width: 30vw;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+
+.courseadd form button {
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 0.8rem 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.courselist {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80vw;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 30px;
+
+}
+
+.courselist h2 {
+    text-transform: uppercase;
+}
+.courselist table {
+    border: 1px solid black;
+    text-transform: capitalize;
+    padding:0.5rem 1rem;
+    border: 1px solid black;
+    margin: 1rem 0;
+    border-radius: 30px;
+}
+.courselist table thead tr {
+    text-transform: capitalize;
+    list-style: none;
+   
+ 
+    
+}
+.courselist table td {
+  padding: 1rem;
+ 
+    
+}
+.cancel{
+    background-color: black !important;
+    color: white !important;
+}
+.courselist table  button {
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.courselist table .edit {
+    background-color: green;
+
+}
+
+.courselist table .delete {
+    background-color: red;
+}
+.courseadd form div select {
+    width: 15vw;
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    
+}
+.courseadd form div select option {
+    padding-left: 10px;
+}

@@ -1,0 +1,12 @@
+.navlink {
+    margin-top: 2rem
+}
+.navlink a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    height: 80px;
+    overflow: hidden;
+    
+}

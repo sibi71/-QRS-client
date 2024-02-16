@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root{
+  --swiper-navigation-size:20px !important;
+  --swiper-navigation-color:blue !important;
+  --swiper-theme-color:#fff !important;
+  --swiper-second-color:aliceblue ;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
